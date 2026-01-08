@@ -4,8 +4,8 @@ void setup() {
 }
 
 //🎯Variable Declarations Go Here
-var leftX = 45;
-var rightX = 370;
+var leftX = 150;
+var rightX = 270;
 var sunRadius = 100;
 
 
@@ -32,8 +32,13 @@ draw = function(){
   ellipse(rightX, 100, 126, 97);
   ellipse(rightX+62, 100, 70, 60);
   ellipse(rightX-62, 100, 70, 60);
-  
-}
+
+  leftX -= 0.5
+
+  rightX += 0.5
+
+  sunRadius += 1
+}                                
 
 
 //🟡Extra FUN Features Ms. Hall Added
